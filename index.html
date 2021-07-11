@@ -7,6 +7,7 @@
 		<title>Google</title>
 
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 	</head>
 
@@ -18,16 +19,21 @@
 		<div id="header-right">
 			<a href="#">Gmail</a>
 			<a href="#">Images</a>
-			<button>Sign in</button>
+			<a href="#"><span id="apps" class="material-icons">apps</span></a>
+			<a id="sign-in">Sign in</a>
 		</div>
 	</header>
 
 	<main>
 		<img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
 		<form>
-			<input id="search-query" type="text" name="search-query">
-			<input type="submit" value="Google Search">
-			<input type="submit" value="I'm Feeling Lucky">
+			<div id="search-bar">
+				<span id="mag-glass" class="material-icons">search</span>
+				<input id="search-query" type="text" name="search-query">
+				<span id="microphone" class="material-icons">mic</span>
+			</div>
+			<input class="search-button" type="submit" value="Google Search">
+			<input class="search-button" type="submit" value="I'm Feeling Lucky">
 		</form>
 	</main>
 

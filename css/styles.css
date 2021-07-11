@@ -1,5 +1,15 @@
 body {
 	margin: 0;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	margin: 0 18px;
 }
 
 header a {
@@ -7,24 +17,39 @@ header a {
 	color: black;
     display: inline-block;
 	padding: 5px;
-	margin: 15px 5px 0 5px;
-}
-
-a:hover {
-	text-decoration: underline;
+	margin: 17px 3px 0 3px;
 }
 
 #header-right {
 	float: right;
+	font-size: 13px;
+	margin-top: -11px;
+	margin-right: -3px;
 }
 
-header {
-	margin: 0 20px;
+#apps {
+    font-size: 24px;
+    color: rgb(95, 99, 104);
+    position: relative;
+    top: 8px;
+    right: 4px;
+    margin-left: 10px;
+}
+
+#sign-in {
+	background-color: rgb(26, 115, 232);
+	color: #eee;
+	padding: 10px 27px;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 14px;
 }
 
 main {
 	width: fit-content;
-	margin: 20vh auto 0 auto;
+	margin: 22vh auto 0 auto;
 	text-align: center;
 }
 
@@ -33,15 +58,59 @@ main {
 	display: block;
 }
 
+#search-bar {
+	position: relative;
+}
+
 #search-query {
-	display: block;
-	width: 350px;
-	margin: 20px 0;
-	padding: 5px;
+	width: 535px;
+	margin: 26px 0;
+   	padding: 13px 0 13px 48px;
+	font-size: 16px;
+	z-index: -1;
+	border-radius: 25px;
+	border: 1px solid #ddd;
+	color: #222;
+}
+
+#search-query:focus {
+	outline: none;
+}
+
+#mag-glass {
+	font-size: 24px;
+	color: #aaa;
+	position: absolute;
+	top: 37px;
+	left: 15px;
+}
+
+#microphone {
+    font-size: 24px;
+	color: #999;
+	position: absolute;
+	top: 37px;
+	right: 15px;	
+}
+
+.search-button {
+	background-color: #f8f9fa;
+	border: none;
+	padding: 9px 15px;
+	margin: 2px 4px;
+	color: #444;
+	font-size: 14px;
+	border: 1px solid white;
+}
+
+.search-button:hover {
+	cursor: pointer;
+	border: 1px solid #ddd;
+	border-radius: 4px;
 }
 
 footer {
-	background-color: #bbb;
+	background-color: #eee;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -55,15 +124,15 @@ footer a {
 	text-decoration: none;
 	color: black;
     display: inline-block;
-	color: #222;
+	color: #777;
 	padding: 10px;
-	margin: 5px;
+	margin: 5px 3px 6px 3px;
 }
 
 #footer-left {
-	margin-left: 10px;
+	margin-left: 22px;
 }
 
 #footer-right {
-	margin-right: 10px;
+	margin-right: 22px;
 }
