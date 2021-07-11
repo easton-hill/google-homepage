@@ -36,6 +36,12 @@ header a {
     margin-left: 10px;
 }
 
+#apps:hover {
+    border-radius: 50%;
+	box-shadow: 0px 0px 0px 8px #eee;
+	background-color: #eee;
+}
+
 #sign-in {
 	background-color: rgb(26, 115, 232);
 	color: #eee;
@@ -45,6 +51,11 @@ header a {
 	cursor: pointer;
 	border-radius: 4px;
 	font-size: 14px;
+}
+
+#sign-in:hover {
+	background-color: rgb(43, 125, 233);
+	box-shadow: 0px 3px 2px #eee;
 }
 
 main {
@@ -75,6 +86,10 @@ main {
 
 #search-query:focus {
 	outline: none;
+}
+
+#search-query:hover {
+	box-shadow: 1px 1px 3px 3px #eee;
 }
 
 #mag-glass {
