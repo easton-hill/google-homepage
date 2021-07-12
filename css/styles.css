@@ -32,8 +32,8 @@ header a {
   font-size: 24px;
   color: rgb(95, 99, 104);
   position: relative;
-  top: 8px;
-  right: 4px;
+  top: 7px;
+  right: 6px;
   margin-left: 10px;
 }
 
@@ -45,8 +45,8 @@ header a {
 
 #sign-in {
   background-color: rgb(26, 115, 232);
-  color: #eee;
-  padding: 10px 27px;
+  color: #fff;
+  padding: 10px 26px 10px 27px;
   border: none;
   text-decoration: none;
   cursor: pointer;
@@ -105,15 +105,15 @@ main {
   font-size: 24px;
   color: #999;
   position: absolute;
-  top: 37px;
-  right: 15px;	
+  top: 38px;
+  right: 17px;	
 }
 
 .search-button {
   background-color: #f8f9fa;
   border: none;
   padding: 9px 15px;
-  margin: 2px 4px;
+  margin: 3px 5px;
   color: #444;
   font-size: 14px;
   border: 1px solid white;
@@ -130,7 +130,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  /* Change flex order on breakpoint */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
